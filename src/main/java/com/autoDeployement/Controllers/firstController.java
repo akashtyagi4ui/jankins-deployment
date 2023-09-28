@@ -11,6 +11,6 @@ public class firstController {
 
     @GetMapping("/view")
     public ResponseEntity<String> view(){
-        return ResponseEntity.ok("I am View Page");
+        return ResponseEntity.ok("I am View Page this is second message");
     }
 }
